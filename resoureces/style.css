@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+section {
+    width: 360px;
+    height: 879px;
+    border: 1px solid #ccc;
+    padding: 1.375rem 1rem;
+}
+
+header {
+    display: flex;
+}
+
+.heading { 
+    width: 100%;
+    text-align: center; 
+}
