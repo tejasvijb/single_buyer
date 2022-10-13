@@ -8,16 +8,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito', sans-serif;
     
 }
 
-h1 {
-    font-family: 'Fredoka', sans-serif;
-    font-weight: 500;
-}
+
 h2 {
     font-family: 'Nunito', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 h3 {
     font-family: 'Nunito', sans-serif;
@@ -33,9 +31,70 @@ section {
 
 header {
     display: flex;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
 }
 
 .heading { 
     width: 100%;
     text-align: center; 
+}
+
+.buyer_detail {
+    margin-top: 1.75rem;
+    padding: 0.875rem 0.75rem 0.75rem 1rem;
+    border: 1px solid #CBCBCB;
+    border-radius: 1.25rem;
+}
+
+.buyer_container {
+    display: flex;
+    position: relative;
+}
+.details{
+    padding-left: 0.5625rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #434244;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.social_icons img {
+    height: 24px;
+    width: 24px;
+}
+
+#gmail {
+    margin: 0 0.75rem;
+}
+
+#delete {
+    position: absolute;
+    right: 0;
+}
+
+.contact_container_img {
+    padding-right: 0.375rem;
+    height: 15px;
+    width: 15px;
+}
+
+.contact_container {
+    margin-top: 0.75rem;
+    font-size: 0.625rem;
+    color: #888888;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-right: 0.75rem;
 }
