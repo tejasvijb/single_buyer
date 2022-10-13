@@ -25,7 +25,7 @@ h3 {
 section {
     width: 360px;
     height: 879px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 1.375rem 1rem;
 }
 
@@ -98,3 +98,140 @@ header {
     margin-bottom: 0.5rem;
     margin-right: 0.75rem;
 }
+
+.order {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.order_container {
+    padding: 1rem;
+    border: 1px solid #CBCBCB;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+.order_stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_status_div {
+    display: flex;
+}
+
+#left {
+    margin-left: 0.5rem;
+}
+
+.num_orders_div {
+    color: #828282;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    padding: 0 0.5rem;
+    background: #F0F4FF;
+    border: 1px solid #2D6BF1;
+    color: #2D6BF1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.total_amount {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+}
+
+.total_div {
+    text-align: center;
+}
+
+.total_heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.history_container {
+    margin-top: 0.75rem;
+}
+
+.history {
+    display: flex;
+    border: 1px solid #CBCBCB;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.order_image img {
+    margin-right: 1rem;
+    display: block;
+    height: 52px;
+    width: 74px;
+}
+
+.order_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.product_name {
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 120%;
+}
+.text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #6A6A6A;
+}
+
+.quantity_div {
+    display: flex;
+    justify-content: space-between;
+}
+.quantity {
+    margin-left: 0.5rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #252525;
+}
+.process {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    border-radius: 0.4375rem;
+}
+
+.paid {
+    color: #366A52;
+    background: #EBFCF3;
+    border: 0.8px solid #366A52;
+}
+
+.pending {
+    color: #FF0000;
+    background: #FFE6E6;
+    border: 0.8px solid #FF0000;
+}
+
+
+
